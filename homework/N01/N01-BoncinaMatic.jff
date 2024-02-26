@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>79.0</x>
+			<y>139.0</y>
+			<label>nič</label>
+			<initial/>
+		</state>
+		<state id="1" name="q1">
+			<x>304.0</x>
+			<y>144.0</y>
+			<label>videl t</label>
+		</state>
+		<state id="2" name="q2">
+			<x>528.0</x>
+			<y>142.0</y>
+			<label>videl tl</label>
+		</state>
+		<state id="3" name="q3">
+			<x>789.0</x>
+			<y>143.0</y>
+			<label>videl tly</label>
+			<final/>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>t</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>1</to>
+			<controlx>527</controlx>
+			<controly>476</controly>
+			<read>t</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>1</to>
+			<controlx>375</controlx>
+			<controly>187</controly>
+			<read>t</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>0</to>
+			<controlx>107</controlx>
+			<controly>-72</controly>
+			<read>razen t</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>0</to>
+			<controlx>292</controlx>
+			<controly>283</controly>
+			<read>razen t ali y</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>3</to>
+			<controlx>659</controlx>
+			<controly>31</controly>
+			<read>y</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>t</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>0</to>
+			<read>razen t ali l</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>razen t</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<controlx>410</controlx>
+			<controly>81</controly>
+			<read>l</read>
+		</transition>
+	</automaton>
+</structure>
