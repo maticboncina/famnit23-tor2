@@ -15,12 +15,10 @@ The repository serves as a personal archive of TOR II course at UP FAMNIT.
 ## Folder structure
 
 1. Classification based on class type:
-    - `lectures` - Lecture notes
     - `homework` - Homework assignments
 
 2. Organised uploads by dates (yyyy-mm-dd) or by assignment number:
-    - 2.1. Numbered by the date of the assignment (yyyy-mm-dd) - **Lectures only**
-    - 2.2. Numbered by the order of the assignment (Nx) (x = 1, 2, 3, ...) - **Homeworks only**
+    - Numbered by the order of the assignment (Nx) (x = 1, 2, 3, ...) - **Homeworks only**
 
 3. Optionally organised further to maintain a clean structure.
 
