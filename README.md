@@ -10,7 +10,9 @@ Profesor: dr. Branko Kavšek
 
 The repository serves as a personal archive of TOR II course at UP FAMNIT. 
 
-**!!! Code/Examples may not be compliable, functional or fully completed or correct. Use/Copy at your own risk, as the code is always submitted to a designated assigment before upload. Bugs may be included !!!**
+**!!! Code in this repository is a wild mix of genius and "oopsie doopsies" - it’s shared !!! after !!! submitting my assignments, so expect adventures (and bugs). Use or copy at your risk !!!**
+
+**FOR "I AM THE SMARTEST IDIOT" CLASSMATE(S): this IS NOT a free ride for your homework. When you get caught using my gigabrain, I'll proudly wave this repository, timestamps, hidden indicators, as proof of my originality while you get a front-row seat to your ethics hearing. Consider yourself warned 💅**
 
 ## Folder structure
 
